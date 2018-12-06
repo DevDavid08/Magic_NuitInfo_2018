@@ -1,5 +1,7 @@
 {
   "name": "Magic_NuitInfo_2018",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

@@ -1,0 +1,61 @@
+<!--
+  Generated template for the CheckListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>checkList</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <p> Tâches journalières:</p>
+    <ion-list>
+        <ion-item>
+            <ion-label>Bilan de santé</ion-label>
+            <ion-checkbox [(ngModel)]="healthBilan"></ion-checkbox>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Entretien des matériels</ion-label>
+            <ion-checkbox [(ngModel)]="materialsManagement"></ion-checkbox>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Systèmes de survie</ion-label>
+            <ion-checkbox [(ngModel)]="survivalSystem"></ion-checkbox>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Contrôle du camp</ion-label>
+            <ion-checkbox [(ngModel)]="homeControl"></ion-checkbox>
+        </ion-item>
+    </ion-list>
+    <p> Avant de partir:</p>
+    <ion-list>
+        <ion-item>
+            <ion-label>Communication et sécurité</ion-label>
+            <ion-checkbox [(ngModel)]="communicationAndSecurity"></ion-checkbox>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Matériel technique</ion-label>
+            <ion-checkbox [(ngModel)]="technicalMaterial"></ion-checkbox>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Matériel électrique chargé</ion-label>
+            <ion-checkbox [(ngModel)]="batteriesCharged"></ion-checkbox>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Prévoir connectique adaptée</ion-label>
+            <ion-checkbox [(ngModel)]="adaptedPlugs"></ion-checkbox>
+        </ion-item>
+    </ion-list>
+</ion-content>
